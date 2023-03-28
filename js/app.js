@@ -1,4 +1,4 @@
-let numbers = [1, 3, 12, 90, 3, 12, 200];
+let numbers = [1, 3, 12, 90, 3, 12, 800];
 let itemRepeatObject = numbers.reduce((obj, currentItem) => {
   return { ...obj, [currentItem]: (obj[currentItem] || 0) + 1 };
 }, {});
