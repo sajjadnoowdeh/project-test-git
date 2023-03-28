@@ -24,3 +24,14 @@ function getInput() {
     console.log(num);
   });
 }
+
+
+
+const  funcMerge = ()=>{
+    return {
+        name:'sajjad',
+        family:'noowdeh'
+    }
+}
+
+funcMerge()
